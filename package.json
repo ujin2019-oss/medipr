@@ -1,0 +1,9 @@
+{
+  "name": "oncare-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check assets/main.js && node --check scripts/serve.mjs"
+  }
+}
